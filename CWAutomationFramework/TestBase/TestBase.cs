@@ -26,7 +26,7 @@ namespace CWAutomationFramework.TestBase
         public Actions action { get; set; }
 
 
-        [One]
+        [SetUp]
         public virtual void SetUp()
         {
             // Getting the URL from the AppConfig
